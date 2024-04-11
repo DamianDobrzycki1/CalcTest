@@ -1,19 +1,9 @@
-package ie.atu;
+package org.example;
 
-import org.example.Calc;
+public class Calc {
 
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-public class CalculatorTest {
-    CalculatorTest myCalc;
+    Calc myCalculator;
 
-    @Test
-    void testAdd()
-    {
-        myCalc = new CalculatorTest();
-        assertEquals(10,myCalc.add(4,6));
-
-    }
     public int add(int firstNum, int secondNum)
     {
         int result= firstNum+secondNum;
